@@ -15,7 +15,13 @@ body {
   min-height: 100%;
   background: #009688;
   font-size: 16px;
-  overflow: hidden;
+}
+
+div {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 *, *:before, *:after {
