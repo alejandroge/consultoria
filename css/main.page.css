@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 .logo {
   text-align: center;
   font-size: 3rem;
