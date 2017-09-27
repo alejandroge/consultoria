@@ -1,0 +1,16 @@
+.logo {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.login {
+  text-align: right;
+  line-height: 3rem;
+  vertical-align: middle;
+}
+
+.menu-item {
+  text-align: center;
+  list-style: none;
+  border-bottom: 3px solid black;
+}
