@@ -12,5 +12,14 @@
 .menu-item {
   text-align: center;
   list-style: none;
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid black;
+} .menu-item a {
+  display: inline-block;
+  width: inherit;
+  color: inherit;
+  text-decoration: none;
+  line-height: 3rem;
+  vertical-align: middle;
+} .menu-item a:hover {
+  background-color: lightgrey;
 }
