@@ -1,18 +1,15 @@
+.main-section {
+  margin-top: 20px;
+}
+
 .welcome {
-  background: orange;
   display: inline-block;
+} .welcome p {
+  text-align: left;
 }
 
 .news-feed {
-  background: grey;
-  display: inline-block;
-}
-
-.front {
-  background-color: pink;
-  line-height: 250px;
-  vertical-align: middle;
-  text-align: center;
+  border-left: 1px solid grey;
 }
 
 .secon-1 {
