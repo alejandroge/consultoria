@@ -9,5 +9,22 @@
 }
 
 .front {
-  background-color: 
+  background-color: pink;
+  line-height: 250px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.secon-1 {
+  background-color: green;
+  line-height: 150px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.secon-2 {
+  background-color: yellow;
+  line-height: 150px;
+  vertical-align: middle;
+  text-align: center;
 }
