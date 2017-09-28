@@ -1,9 +1,27 @@
-.card ul {
+.accordion .card .card-header {
+  padding: 0px;
+  overflow: hidden;
+} .accordion .card .card-header a {
+  display: inline-block;
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  vertical-align: middle;
+  padding-left: 15px;
+  color: black;
+} .accordion .card .card-header a:hover {
+  background-color: lightgrey;
+  text-decoration: none;
+}
+
+.accordion .card .card-block ul {
   list-style: none;
   margin: 0px;
   padding-top: 10px;
-} .card ul li {
+} .accordion .card .card-block ul li {
   display: block;
   margin-left: 20px;
   margin-bottom: 10px;
+} .accordion .card .card-block ul li a {
+  color: grey;
 }
