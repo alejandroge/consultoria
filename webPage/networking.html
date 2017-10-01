@@ -14,7 +14,7 @@
     <header>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-10 logo">Geosmina</div>
+          <div class="col-md-10 logo"><a href="../index.html">Geosmina</a></div>
           <div class="col-md-2 login">Iniciar Sesión</div>
         </div>
         <nav class="menu row">
@@ -37,7 +37,17 @@
 
     <section class="search-box container">
       <div class="row">
-        <input type="text" class="search-input" name="search-input" value="" placeholder="Nombre o Razón Social">
+        <input class="search-input" name="search-input" type="text" list="companies" placeholder="Nombre o Razón Social" />
+        <datalist id="companies">
+           <option value="Flexi">
+           <option value="3 Hermanos">
+           <option value="Textil Item 1">
+           <option value="Textil Item 2">
+           <option value="Textil Item 3">
+           <option value="Alimenticia Item 1">
+           <option value="Alimenticia Item 2">
+           <option value="Alimenticia Item 3">
+        </datalist>
       </div>
     </section>
 
@@ -55,8 +65,8 @@
           <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
             <div class="card-block">
               <ul>
-                <li><a href="">Flexi</a></li>
-                <li><a href="">3 Hermanos</a></li>
+                <li><a href="company.html">Example Company #1</a></li>
+                <li><a href="#">3 Hermanos</a></li>
               </ul>
             </div>
           </div>

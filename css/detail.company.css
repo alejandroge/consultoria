@@ -1,0 +1,10 @@
+.company-card {
+  margin-top: 40px;
+}
+
+.company-logo {
+  display: block;
+} .company-logo img {
+  width: 100%;
+  display: inline-block;
+}
